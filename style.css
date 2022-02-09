@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Red Hat Display', Arial, Helvetica, sans-serif;
+    background: url(pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.main-content{
+    width: 35%;
+    border-radius: 1rem;
+    margin: 6% auto 0;
+    background-color: hsl(225, 100%, 98%);
+}
+
+.dancing-img{
+    width: 100%;
+    border-radius: 0.9rem 0.9rem 0 0 ;
+}
+
+.heading{
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+
+.description-p{
+    color: hsl(224, 23%, 55%);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.payment{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    position: relative;
+}
+
+.music-img{
+    margin: 5%;
+}
+
+.annual-plan{
+    display: inline-block;
+    position: absolute;
+    top: 20%;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.price{
+    display: inline-block;
+    position: absolute;
+    top: 40%;
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding-top: 5px;
+}
+
+.change{
+    display: inline-block;
+    position: absolute;
+    right: 10%;
+    top: 40%;
+    font-size: 13px;
+    font-weight: 700;
+    color: hsl(245, 75%, 52%);
+}
+
+.change:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+
+.payment-btn{
+    text-align: center;
+}
+
+.payment-btn button{
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 7px;
+    margin-bottom: 1rem;
+    font-family: 'Red Hat Display';
+    font-weight: 700;
+}
+
+.payment-btn button:hover{
+    cursor: pointer;
+    background-color: hsl(224, 23%, 55%);
+}
+
+.cancel-order{
+    padding-top: 10px;
+    padding-bottom: 2rem;
+    font-family: 'Red Hat Display';
+    text-decoration: none;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-order:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+@media screen and (max-width: 768px) {
+
+    body{
+        background: url(pattern-background-mobile.svg);
+    }
+    
+    .main-content{
+        width: 85%;
+    }
+}
